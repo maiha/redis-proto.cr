@@ -1,5 +1,5 @@
 name: redis-proto
-version: 0.1.0
+version: 0.1.1
 
 authors:
   - maiha <maiha@wota.jp>
@@ -14,10 +14,7 @@ dependencies:
     version: ~> 0.7.6
 
   protobuf:
-    # github: jeromegn/protobuf.cr
-    # switch to official repository after pr/14 will be merged.
-    # see: https://github.com/jeromegn/protobuf.cr/pull/14
-    github: maiha/protobuf.cr
-    branch: hash-access
+    github: jeromegn/protobuf.cr
+    version: ~> 2.1.2
 
 license: MIT
