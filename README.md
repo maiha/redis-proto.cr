@@ -8,7 +8,7 @@ storage.set(user)
 storage.get("maiha")
 ```
 
-- tested on crystal-0.23.1
+- crystal-0.26.1
 
 ## Installation
 

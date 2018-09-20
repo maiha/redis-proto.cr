@@ -11,10 +11,12 @@ dependencies:
 
   redis-cluster:
     github: maiha/redis-cluster.cr
-    version: ~> 0.7.6
+    version: ">= 0.8.0"
 
   protobuf:
-    github: jeromegn/protobuf.cr
-    version: ~> 2.1.2
+    # github: jeromegn/protobuf.cr
+    # use fork for Protobuf::Message[](key)
+    github: maiha/protobuf.cr
+    branch: hash-accessors
 
 license: MIT
